@@ -72,17 +72,7 @@ namespace sohan
                     Log.Info("Excel导出成功!");
                     Console.WriteLine("Excel导出成功!");
                 }
-                //HtmlDocument doc = new HtmlDocument();
-                //doc.LoadHtml(queryHtml);
-                //var tableTrAll = doc.DocumentNode.SelectNodes("//table/tr");
-
-                //foreach ( var oneTr in tableTrAll)
-                //{
-                //    doc.LoadHtml(oneTr.InnerHtml);
-
-                //    var td = doc.DocumentNode.SelectNodes("//td");
-                //    var ss =td[1].InnerHtml;
-                //}
+                
 
             }
             catch (Exception ex)
